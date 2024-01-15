@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
     />
+    <title>Foundation Week Website</title>
   </head>
   <body>
     <div class="desktop-2" id="section0">
@@ -30,7 +31,7 @@
 
       <div class="one-app-to-get-lead-and-drive-parent">
         <div class="one-app-to-container">
-          <p class="one-app-to">One app to get lead and drive sales</p>
+          <p class="one-app-to">Cyber sentinel Foundation Week </p>
           
           
         </div>
@@ -67,16 +68,22 @@
       <div class="about-area" id="section1">
         <div class="frame-container">
           <div class="frame-div">
+            <div>
+
+            </div>
+            <div>
+              
+            </div>
             <div class="about-wrapper">
               <div class="about1">About</div>
             </div>
             <div class="lorem-ipsum-dolor">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque ut magna ac libero dignissim volutpat vel et felis.
-              Fusce sagittis diam vitae erat fringilla, non condimentum arcu
-              cursus. Nullam ut arcu in augue tincidunt fermentum. Proin
-              tristique pretium orci eu rhoncus. Nulla vulputate orci quis
-              dapibus mattis.
+              We are CYBER SENTINEL,
+Guardians of the Cyber world, a community entirely dedicated to cyber security. UPES-CYBER SENTINEL came into 
+existence on 28th January 2020, on the occasion of International Data Privacy Day.
+UPES Cyber Sentinel is a 
+technical student chapter at the University of Petroleum and Energy Studies, Dehradun. With a vision to facilitate students in their Cyber Security endeavours through extracurricular activities, mentoring and adhering to the Cyber Security Trends, and making them cyber aware.
+We conduct CTFs, Workshops, Talks, Challenges, Solutions, and guidance as a team of cyber security enthusiasts. We hanker from raising a guild of terrific cyber maniacs to make the common public aware of the primary axioms of security. A crew of the next generation attackers and defenders bent on building up the toughest armors in cyber warfare.
             </div>
           </div>
           <div class="screenshot-from-2024-01-14-20-parent">
@@ -155,11 +162,20 @@
           </div>
         </div>
       </div>
+      <div>
+
+      </div>
       <div class="events-at-a-container" id="events">
         <span class="events-at-a-container1">
           <p class="one-app-to">EVENTS</p>
           <p class="one-app-to">AT A GLANCE</p>
         </span>
+        <div>
+
+        </div>
+      </div>
+      <div>
+
       </div>
       <div class="timeline-grid">
         <div class="day-1">
@@ -418,6 +434,18 @@ var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     document.getElementById("Seconds").innerHTML=seconds;
 
       },1000)
+      const eventContentMap = {
+      event1: 'Content for Event - 1',
+      event2: 'Content for Event - 2',
+      event3:'Content for Event -3',
+      event4: 'Content for Event-4',
+    };
+
+    function loadContent(event) {
+      const content = eventContentMap[event] || 'Default Content';
+      
+      document.getElementById('eventContent').innerText = content;
+    }
     </script>
   </body>
 </html>
