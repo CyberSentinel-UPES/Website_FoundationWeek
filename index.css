@@ -1,6 +1,14 @@
 .logo {
   position: relative;
 }
+body {
+  margin: 0;
+  line-height: normal;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
 .desktop-2{
   
     width: 100%;
